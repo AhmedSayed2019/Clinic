@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_clinic"
+            android:icon="@drawable/ic_action_clinic"
+            android:title="Clinics" />
+
+        <item
+            android:id="@+id/nav_MyResetvation"
+            android:icon="@drawable/ic_action_person"
+            android:title="My Resetvation" />
+
+        <item
+        android:id="@+id/nav_MakeAComplaint"
+        android:icon="@drawable/ic_action_bad"
+        android:title="Make a complaint" />
+
+        <item
+            android:id="@+id/nav_aboutAs"
+            android:icon="@drawable/ic_action_about_as"
+            android:title="About As" />
+
+        <item
+            android:id="@+id/nav_Logout"
+
+            android:title="Logout" />
+
+    </group>
+
+</menu>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <dimen name="profile_picture">200dp</dimen>
+   <dimen name="set_Profile_Picture">40dp</dimen>
+   <dimen name="Margin20">20dp</dimen>
+   <dimen name="normal_text">16sp</dimen>
+   <dimen name="small_text">20sp</dimen>
+
+   <dimen name="padding">10dp</dimen>
+   <dimen name="edit_text_height">60dp</dimen>
+   <dimen name="button_height">40dp</dimen>
+
+
+
+
+   <dimen name="extra_large_text">36sp</dimen>
+   <dimen name="large_text">24sp</dimen>
+   <dimen name="large_image">200dp</dimen>
+   <dimen name="extra_small_text">12sp</dimen>
+   <dimen name="extra_extra_large_text">48sp</dimen>
+
+   <dimen name="splash_screen">256dp</dimen>
+
+
+
+</resources>

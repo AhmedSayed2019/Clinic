@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutAs"
+    android:background="@color/white"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/Margin20"
+                android:layout_gravity="center_horizontal"
+                android:textSize="20sp"
+                android:text="عيادتي"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/Margin20"
+                android:textSize="15sp"
+                android:text="من نحنفريق ڤيزيتاوظائفڤيزيتا في الصحافةمدونة ڤيزيتاالشروط و القوانيناتفاقية الخصوصيةاتصل بنا" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/Margin20"
+                android:layout_gravity="center_horizontal"
+                android:textSize="20sp"
+                android:text="المناطق"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/Margin20"
+                android:textSize="15sp"
+                android:text="مصر الجديدة , مدينة نصر , المعادي , التجمع , حدائق القبة , مدينة العبور , المنيلشبرا , وسط البلد" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

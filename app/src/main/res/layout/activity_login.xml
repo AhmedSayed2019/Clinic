@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layoutDirection="ltr"
+    android:background="@color/gray1"
+    tools:context=".Login">
+
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            tools:ignore="MissingConstraints"
+            android:layout_centerInParent="true"/>
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/img1"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/logo"
+            app:civ_border_overlay="true"
+            android:layout_centerInParent="true"
+            />
+
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/Email"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/edit_text_height"
+            android:layout_margin="10dp"
+            android:background="@drawable/edittixtstyle"
+            android:drawableRight="@drawable/ic_action_person"
+            android:hint="@string/username"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp" />
+
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/edit_text_height"
+            android:layout_margin="10dp"
+            android:background="@drawable/edittixtstyle"
+            android:hint="@string/password"
+            android:drawableRight="@drawable/ic_action_lock"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:inputType="textPassword"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="@dimen/Margin20">
+
+            <Button
+                android:id="@+id/login"
+                android:layout_weight="2"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/button_height"
+                android:background="@drawable/button"
+                android:layout_marginTop="10dp"
+                android:padding="@dimen/padding"
+                android:text="@string/login_text"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:textSize="17sp"
+                android:onClick="signInNow"
+                android:inputType="textLongMessage"/>
+
+            <Button
+                android:id="@+id/goToSignUp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="2"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/button_height"
+                android:background="@drawable/button"
+                android:padding="@dimen/padding"
+                android:text="@string/signup_text"
+                android:textColor="@android:color/white"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:onClick="goToSignUp"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

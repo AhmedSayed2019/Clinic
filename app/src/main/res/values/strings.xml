@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">clinic</string>
+    <string name="splash_screen_text">Clinic</string>
+
+    <string name="login_text">Login</string>
+    <string name="signup_text">sign up</string>
+
+    <string name="to_signup">create new account</string>
+    <string name="to_signin">do you have account?!</string>
+
+    <string name="username">"username"</string>
+    <string name="password">"password"</string>
+    <string name="diabetes">"diabetes"</string>
+    <string name="pressure">"pressure"</string>
+    <string name="read_pressure">"Read pressure"</string>
+
+    <string name="male">male</string>
+    <string name="female">female</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
